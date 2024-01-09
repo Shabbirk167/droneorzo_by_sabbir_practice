@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* body {
+    width: 83.333%;
+    max-width: 1200px;
+    margin: 0, auto;
+} */
+.primary-head {
+    color: #000;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.primary-text {
+    color: #000;
+font-size: 16px;
+font-weight: 500;
+}
+
+/* ==================================================================SERVICES============================================ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==============================================team member======================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===========================================================clients============== */
+#clients {
+    background-color: rgb(236, 250, 251);
+}
+
+
+#clients .container {
+    width: 83.3%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 120px 0;
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================footer============================================== */
+footer {
+    background-color: #414141;
+}
+
+#footer {
+    width: 83.3%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 120px;
+    display: flex;
+}
+
+#footer .droneorzo .img-h {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
