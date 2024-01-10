@@ -16,10 +16,11 @@
     font-weight: 700;
     text-transform: uppercase;
 }
+
 .primary-text {
     color: #000;
-font-size: 16px;
-font-weight: 500;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 /* ==================================================================SERVICES============================================ */
@@ -64,11 +65,10 @@ font-weight: 500;
 
 
 
-/* ===========================================================clients============== */
+/* ===================================================clients============== */
 #clients {
     background-color: rgb(236, 250, 251);
 }
-
 
 #clients .container {
     width: 83.3%;
@@ -76,12 +76,35 @@ font-weight: 500;
     margin: 0 auto;
     padding: 120px 0;
     display: flex;
+    gap: 60px;
+    align-items: center;
 }
 
+#clients .container .client-say {
+    text-align: right;
 
+}
 
+#clients .container .review {
+    text-align: center;
+}
 
+#clients .container .review .costomar {
+    text-align: center;
+    border-radius: 20px;
+    border: 1px solid var(--Sea-Serpent, #3FCAD7);
+    /* opacity: 0.3; */
+    padding: 40px 76px;
 
+}
+
+#clients .container .review .costomar p {
+    margin: 20px 0;
+}
+
+#clients .container .review .dit i {
+    color: #3FCAD7;
+}
 
 
 
@@ -103,16 +126,71 @@ footer {
     background-color: #414141;
 }
 
+.fh {
+    color: #FFF;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 122%;
+}
+
+.ft {
+    color: #FFF;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 122%;
+}
+
 #footer {
     width: 83.3%;
     max-width: 1200px;
     margin: 0 auto;
     padding: 120px;
     display: flex;
+    justify-content: space-between;
+    gap: 70px;
 }
 
 #footer .droneorzo .img-h {
     display: flex;
     align-items: center;
     gap: 13px;
+}
+
+#footer .droneorzo .img-h h3 {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#footer .droneorzo .text {
+    margin-top: 10px;
+}
+
+/* =========================== */
+#footer .categories .link{
+    display: flex;
+    flex-direction: column;
+
+}
+#footer .categories .link a{
+margin: 7px 0;
+text-decoration: none;
+
+}
+/* =============================== */
+#footer .info .link{
+    display: flex;
+    flex-direction: column;
+
+}
+#footer .info .link a{
+margin: 7px 0;
+text-decoration: none;
+}
+/* ================================= */
+#footer .get-in-touch .fgit {
+    display: flex;
+    flex-direction: row;
 }
