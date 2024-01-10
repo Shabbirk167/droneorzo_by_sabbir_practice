@@ -49,6 +49,37 @@
 
 
 /* ==============================================team member======================================== */
+#team {
+    margin: 120px 0;
+}
+#team .container {
+    width: 83.3%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+#team .container .member{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -105,21 +136,6 @@
 #clients .container .review .dit i {
     color: #3FCAD7;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* ==========================================================footer============================================== */
 footer {
@@ -190,7 +206,24 @@ margin: 7px 0;
 text-decoration: none;
 }
 /* ================================= */
-#footer .get-in-touch .fgit {
-    display: flex;
-    flex-direction: row;
+#footer .get-in-touch p {
+margin: 7px 0;
+}
+#footer .get-in-touch p i{
+    color: #3FCAD7;
+}
+
+#footer .get-in-touch label input{
+    background-color: #414141;
+    padding: 11px 25px 8px 13px;
+    border: 1px solid #3FCAD7;
+    border-radius: 6px;
+}
+#footer .get-in-touch label i{
+    cursor: pointer;
+    background-color: #3FCAD7;
+    border-radius: 6px;
+    padding: 13px;
+    position: relative;
+    right: 25px;
 }
